@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/bottom_bar_normal_bg">
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/fx_find_normal" />
+    <TextView
+        android:id="@+id/tv_bottom_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/iv_image"
+        android:layout_marginTop="4dp"
+        android:textColor="@android:color/black"
+        android:text="@string/business_card_scanning"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/tv_right_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iv_image"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:text="@string/customer"/>
+</RelativeLayout>

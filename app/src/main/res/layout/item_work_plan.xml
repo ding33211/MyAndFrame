@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/iv_visit_plan"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/fx_find_pressed" />
+
+        <TextView
+            android:id="@+id/tv_visit_plan_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_visit_plan"
+            android:text="@string/customer_follow_up" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_visit_plan"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignLeft="@+id/tv_visit_plan_label"-->
+            <!--android:layout_below="@+id/tv_visit_plan_label"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:text="1"-->
+            <!--android:textColor="@android:color/black" />-->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/iv_work_report"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/fx_find_pressed" />
+
+        <TextView
+            android:id="@+id/tv_work_report_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_work_report"
+            android:text="@string/visit_plan" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_work_report"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignLeft="@+id/tv_work_report_label"-->
+            <!--android:layout_below="@+id/tv_work_report_label"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:text="1"-->
+            <!--android:textColor="@android:color/black" />-->
+    </RelativeLayout>
+</LinearLayout>

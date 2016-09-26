@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_total_follow_up"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/fx_find_pressed" />
+
+            <TextView
+                android:id="@+id/tv_total_follow_up_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/iv_total_follow_up"
+                android:text="@string/total_follow_up" />
+
+            <TextView
+                android:id="@+id/tv_total_follow_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_total_follow_up_label"
+                android:layout_below="@+id/tv_total_follow_up_label"
+                android:layout_marginTop="5dp"
+                android:text="84"
+                android:textColor="@android:color/black" />
+        </RelativeLayout>
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:padding="10dp">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/iv_call_in_attendance"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:src="@drawable/fx_find_pressed" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_call_in_attendance_label"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_toRightOf="@+id/iv_call_in_attendance"-->
+                <!--android:text="@string/unit_price" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_call_in_attendance"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignLeft="@+id/tv_call_in_attendance_label"-->
+                <!--android:layout_below="@+id/tv_call_in_attendance_label"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:text="84"-->
+                <!--android:textColor="@android:color/black" />-->
+
+        <!--</RelativeLayout>-->
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_new_customer"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/fx_find_pressed" />
+
+            <TextView
+                android:id="@+id/tv_new_customer_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/iv_new_customer"
+                android:text="@string/new_customer" />
+
+            <TextView
+                android:id="@+id/tv_new_customer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_new_customer_label"
+                android:layout_below="@+id/tv_new_customer_label"
+                android:layout_marginTop="5dp"
+                android:text="84"
+                android:textColor="@android:color/black" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_new_clue"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/fx_find_pressed" />
+
+            <TextView
+                android:id="@+id/tv_new_clue_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/iv_new_clue"
+                android:text="@string/new_clue" />
+
+            <TextView
+                android:id="@+id/tv_new_clue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_new_clue_label"
+                android:layout_below="@+id/tv_new_clue_label"
+                android:layout_marginTop="5dp"
+                android:text="84"
+                android:textColor="@android:color/black" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_new_business_opportunity"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/fx_find_pressed" />
+
+            <TextView
+                android:id="@+id/tv_new_business_opportunity_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/iv_new_business_opportunity"
+                android:text="@string/new_business_opportunity" />
+
+            <TextView
+                android:id="@+id/tv_new_business_opportunity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_new_business_opportunity_label"
+                android:layout_below="@+id/tv_new_business_opportunity_label"
+                android:layout_marginTop="5dp"
+                android:text="84"
+                android:textColor="@android:color/black" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_new_contract"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/fx_find_pressed" />
+
+            <TextView
+                android:id="@+id/tv_new_contract_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/iv_new_contract"
+                android:text="@string/new_contract" />
+
+            <TextView
+                android:id="@+id/tv_new_contract"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_new_contract_label"
+                android:layout_below="@+id/tv_new_contract_label"
+                android:layout_marginTop="5dp"
+                android:text="84"
+                android:textColor="@android:color/black" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

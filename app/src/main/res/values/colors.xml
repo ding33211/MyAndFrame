@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColorPrimary">#ffffff</color>
+
+
+    <!-- 首页底部bar背景色-->
+    <color name="bottom_bar_normal_bg">#fcfcfc</color>
+    <!-- 首页底部bar字体选中颜色-->
+    <color name="bottom_bar_text_selected_color">#46c01b</color>
+    <!-- 首页底部bar字体未选中颜色-->
+    <color name="bottom_bar_text_normal_color">#999999</color>
+
+
+
+</resources>

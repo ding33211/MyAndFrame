@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">soubuCRM</string>
+    <string name="button_allow">允许</string>
+    <string name="button_deny">拒绝</string>
+    <string name="button_ok">好的</string>
+    <string name="permission_explain_storage">我们需要读取您的存储文件来让您更好的使用我们的应用</string>
+    <string name="click_again_to_quit">再按一次退出搜布CRM</string>
+    <string name="home_page">首页</string>
+    <string name="crm">CRM</string>
+    <string name="todo">待办</string>
+    <string name="last_month">上月</string>
+    <string name="this_month">本月</string>
+    <string name="turnover_volume">成交额</string>
+    <string name="monthly_target">月度目标</string>
+    <string name="rmb_label">￥</string>
+    <string name="completed">已完成</string>
+    <string name="performance_goal">业绩目标</string>
+    <string name="work_plan">工作计划</string>
+    <string name="sales_performance">销售业绩</string>
+    <string name="sales_executive">销售执行力</string>
+    <string name="last_week">上周</string>
+    <string name="this_week">本周</string>
+    <string name="visit_plan">访客计划</string>
+    <string name="customer_follow_up">客户跟进</string>
+
+    <string name="work_report">工作报告</string>
+    <string name="total_turnover">总计成交额</string>
+    <string name="unit_price">单价</string>
+    <string name="numbers_of_customer">客户数</string>
+    <string name="contract_number">合同数</string>
+    <string name="total_follow_up">总跟进</string>
+    <string name="call_in_attendance">拜访签到汇总</string>
+    <string name="new_clue">新增线索</string>
+    <string name="new_customer">新增客户</string>
+    <string name="new_business_opportunity">新增商机</string>
+    <string name="new_contract">新增合同</string>
+    <string name="customer_management">客户管理</string>
+    <string name="business_management">业务管理</string>
+    <string name="popular_functions">常用功能</string>
+
+    <string name="customer">客户</string>
+    <string name="clue">线索</string>
+    <string name="business_opportunity">商机</string>
+    <string name="contract">合同</string>
+    <string name="sales_management">销售管理</string>
+    <string name="contract_management">合同管理</string>
+    <string name="product_management">产品管理</string>
+    <string name="customer_high_seas">客户公海</string>
+    <string name="weekly_and_monthly_report">周报月报</string>
+    <string name="approval">审批</string>
+
+    <string name="business_card_scanning">名片扫描</string>
+    <string name="nearby_customers">附近客户</string>
+    <string name="fill_in_follow_up">填写跟进</string>
+    <string name="new_reminder">新增提醒</string>
+
+
+
+</resources>
